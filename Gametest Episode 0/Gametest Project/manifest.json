@@ -1,8 +1,8 @@
 {
     "format_version": 2,
     "header": {
-        "name": "name",
-        "description": "description",
+        "name": "Gametest Project",
+        "description": "Script API by MSC BEEHI.",
         "uuid": "1a2f42bd-18d4-4e0d-8e3f-934ab8a0c05e",
         "version": [
             1,
@@ -28,7 +28,7 @@
         {
             "type": "script",
             "language": "javascript",
-            "uuid": "1a1b53fc-5153-4a75-91b7-9cdF027674ae",
+            "uuid": "1a2b53fc-5153-4a75-91b7-9cdF027674ae",
             "entry": "scripts/Main.js",
             "version": "1.0.0-beta"
         }
@@ -36,10 +36,22 @@
     "dependencies": [
         {
             "module_name": "@minecraft/server",
+            "version": "1.1.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-gametest",
             "version": "1.0.0-beta"
         },
         {
             "module_name": "@minecraft/server-ui",
+            "version": "1.0.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-admin",
+            "version": "1.0.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-net",
             "version": "1.0.0-beta"
         }
     ]
